@@ -1,0 +1,3 @@
+# Generate commercial license template
+pip install venice-licensing
+venice license generate --type="PatentPending" --royalty=15% --file=VVV_Commercial_License.md
