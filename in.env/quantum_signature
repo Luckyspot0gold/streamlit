@@ -1,0 +1,44 @@
+curl -X GET https://api.github.com/repos/Luckypot0gold/executive-office-crew/commits
+curl -X GET https://api.github.com/repos/Luckypot0gold/executive-office-crew/commits
+# Expected: "Last commit: Venice AI + SSL fixed"
+
+
+
+
+# Commit with quantum signature
+git add . && git commit -m "Venice AI + SSL fixed"
+git push origin main
+
+
+
+
+
+# 1. DNS verification
+dig +short cryptoclashers.games | grep "supabase.app"  
+dig +short stoneyard.cash | grep "cloudfront.net"  
+
+# 2. SSL verification
+curl -I https://cryptoclashers.games | grep "Strict-Transport-Security"  
+curl -I https://stoneyard.cash | grep "X-Cache: AWS CloudFront"  
+
+# 3. Quantum encryption check
+python3 -c "import undeadstackerS; undeadstackerS.check('assets/*')"  
+
+# 4. Venice AI integration
+node -e "require('ethers').utils.getAddress('0x' + 'AVAX_CONTRACT_ADDRESS')"
+
+
+
+
+
+# Commit with quantum signature
+git add . && git commit -m "Venice AI + SSL fixed"
+git push origin main
+
+
+
+
+# Enable Always Use HTTPS
+curl -X PATCH "https://api.cloudflare.com/client/v4/zones/YOUR_ZONE_ID/settings/always_use_https" \
+  -H "Authorization: Bearer YOUR_CLOUDFLARE_TOKEN" \
+  -d '{"value":"on"}'
